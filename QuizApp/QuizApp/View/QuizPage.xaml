@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Quiz Page"
+             x:Class="QuizApp.View.QuizPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#B5A7D9">
+            <StackLayout BackgroundColor="#2b74c0" VerticalOptions="Fill" HorizontalOptions="FillAndExpand">
+                <Picker SelectedIndexChanged="Picker_SelectedIndexChanged" Title="Choose Quiz" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                    <Picker.Items>
+                        <x:String>Quiz1</x:String>
+                        <x:String>Quiz2</x:String>
+                        <x:String>Quiz3</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label x:Name="question" TextColor="Black" Text="What is Capital of Australia ?"  HorizontalOptions="StartAndExpand" FontSize="Medium" Margin="10">
+                </Label>
+                <StackLayout  x:Name="EditorLayout" Orientation="Horizontal" IsVisible="False">
+                    <Label Text="Your Answer" VerticalOptions="Center"  HorizontalOptions="Start" FontSize="Default"></Label>
+                    <Editor x:Name="Editor" TextColor="Black" HorizontalOptions="FillAndExpand" >
+                    </Editor>
+                </StackLayout>
+                <StackLayout x:Name="SliderLayout" IsVisible="False">
+                    <Slider x:Name="Slider" Minimum="0" Maximum="5" ></Slider>
+                    <Label BindingContext="{x:Reference Slider}" Text="{Binding Value, StringFormat='The angle is {0:F0} degrees'}" HorizontalOptions="Center"></Label>
+                </StackLayout>
+                <StackLayout x:Name="PickerLayout" HorizontalOptions="FillAndExpand" IsVisible="False">
+                    <Picker x:Name="picker" SelectedIndexChanged="Picker_SelectedIndexChanged_1" Title="Select Answer" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+
+                    </Picker>
+                </StackLayout>
+            </StackLayout>
+            <Button Text="SUBMIT" HorizontalOptions="CenterAndExpand" VerticalOptions="Fill" Margin="20" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

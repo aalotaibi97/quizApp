@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#c4bcdb"
+             Title=" Login page"
+             x:Class="QuizApp.View.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Quiz_icon.png" HorizontalOptions="Center" WidthRequest="150" HeightRequest="150" Margin="0,30,0,0"/>
+            <StackLayout HorizontalOptions="Fill" HeightRequest="1" BackgroundColor="Black" Margin="0,70,0,0"/>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="user.png" WidthRequest="30" HeightRequest="30" Margin="10,0,0,0"/>
+                <Editor x:Name="UserName" Text="User Name" TextColor="White"  Focused="UserName_Focused" Unfocused="UserName_Unfocused" HorizontalOptions="FillAndExpand" >
+                </Editor>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Fill" HeightRequest="1" BackgroundColor="Black" Margin="0,10,0,0"/>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="password.png" WidthRequest="25" HeightRequest="25" Margin="10,0,0,0"/>
+                <Editor x:Name="Password" Text="Password" TextColor="White"  Focused="Password_Focused" Unfocused="Password_Unfocused" HorizontalOptions="FillAndExpand" >
+                </Editor>
+            </StackLayout>
+            <StackLayout  >
+                <Label x:Name="Login"  Text="Sign in" TextColor="White"  Margin="0,20,0,0" BackgroundColor="#2b75bf" HeightRequest="55" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="20">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Margin="0,0,0,10">
+                <Label Text="Don't have an account" HorizontalOptions="Center" ></Label>
+                <Label Text=" Register"  HorizontalOptions="Center" TextColor="#2b75bf">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Register"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

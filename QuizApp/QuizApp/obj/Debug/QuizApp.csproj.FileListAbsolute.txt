@@ -1,0 +1,17 @@
+c:\users\beyond\documents\visual studio 2017\Projects\QuizApp\QuizApp\QuizApp\obj\Debug\QuizApp.MainPage.xaml.g.cs
+c:\users\beyond\documents\visual studio 2017\Projects\QuizApp\QuizApp\QuizApp\obj\Debug\QuizApp.App.xaml.g.cs
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\obj\Debug\QuizApp.View.QuizPage.xaml.g.cs
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\QuizApp.dll
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\QuizApp.pdb
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\obj\Debug\QuizApp.dll
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\obj\Debug\QuizApp.pdb
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\obj\Debug\QuizApp.View.LoginPage.xaml.g.cs
+C:\Users\beyond\Documents\Visual Studio 2017\Projects\QuizApp\QuizApp\QuizApp\obj\Debug\QuizApp.View.SignUpPage.xaml.g.cs
